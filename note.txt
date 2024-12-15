@@ -1,0 +1,46 @@
+DevFlow Project Setup
+=====================
+
+System Requirements
+-------------------
+-Node.js 18.18 or later.
+-macOS, Windows (including WSL), and Linux are supported.
+
+*create a folder "NextJs15" and this folder into vs code
+*open terminal 
+    >npx create-next-app@latest ./
+
+
+Would you like to use TypeScript? Yes
+Would you like to use ESLint? Yes
+Would you like to use Tailwind CSS?  Yes
+Would you like your code inside a `src/` directory? No 
+Would you like to use App Router? (recommended) Yes 
+Would you like to use Turbopack for `next dev`?  Yes [which runs application smoothly]
+Would you like to customize the import alias (`@/*` by default)? No 
+
+
+*after creating then run the Project    
+        >npm run dev
+
+
+
+
+
+
+
+
+
+
+
+
+Git-Github Setup
+================
+*create one repository like 'stack_overflow_nextjs15"
+*after that push the all code into 'stack_overflow_nextjs15' repository.
+    >git init
+    >git add ./
+    >git commit -m "first commit"
+    >git branch -M main
+    >git remote add origin https://github.com/bhanudova02/stack_overflow_nextjs15.git
+    >git push -u origin main
